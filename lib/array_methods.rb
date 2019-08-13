@@ -15,17 +15,30 @@ end
 
 
 def using_reverse(array)
-
+ array.reverse
 end
+
+ using_reverse([1,2,3,4,5])
+#----------------------------------------------
+
 
 def using_first(array)
-
+ array.first 
 end
+
+ using_first([1,2,3,4,5])
+#----------------------------------------------
+
 
 def using_last(array)
-
+  array.last 
 end
+
+using_last([1,2,3,4,5])
+#----------------------------------------------
 
 def using_size(array)
-
+  array.size 
 end
+
+using_size([1,2,3,4,5])
